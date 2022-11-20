@@ -1,6 +1,12 @@
 # Getting Started with Todo App
 
-This project is a simple Todo App.
+This project is a simple Todo App using ASP.NET in Backend and ReactJS in Frontend.
+
+##Get started
+
+Live Demo: https://purple-grass-0b55b2d03.2.azurestaticapps.net/
+
+Server Swagger: https://dotnettodoserver.azurewebsites.net/swagger/index.html
 
 ## Available Scripts
 
