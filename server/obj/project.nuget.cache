@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "r+mkJcnLUR4ju9oN26uCnkXORSMFJICBdATBE1QP/z4cfenPlwhZgvFCDON4yh575MmYz31qmiEd6385ybeBcg==",
+  "dgSpecHash": "/9Ao3sU0xDbWdUHbTwd+CM2YvOTKY4TnsiickKmJmEeg+W3Hbw2V8fhpAF5qEyw8Uy5NXeRkc2MttQDzwQTLOQ==",
   "success": true,
-  "projectFilePath": "/Users/aelbouhdidi/Desktop/Repos/serverSolution/server/server.csproj",
+  "projectFilePath": "/Users/aelbouhdidi/Desktop/todo-app/server/server.csproj",
   "expectedPackageFiles": [
     "/Users/aelbouhdidi/.nuget/packages/humanizer.core/2.14.1/humanizer.core.2.14.1.nupkg.sha512",
     "/Users/aelbouhdidi/.nuget/packages/microsoft.aspnetcore.openapi/7.0.0/microsoft.aspnetcore.openapi.7.0.0.nupkg.sha512",

@@ -1715,11 +1715,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/aelbouhdidi/Desktop/Repos/serverSolution/server/server.csproj",
+      "projectUniqueName": "/Users/aelbouhdidi/Desktop/todo-app/server/server.csproj",
       "projectName": "server",
-      "projectPath": "/Users/aelbouhdidi/Desktop/Repos/serverSolution/server/server.csproj",
+      "projectPath": "/Users/aelbouhdidi/Desktop/todo-app/server/server.csproj",
       "packagesPath": "/Users/aelbouhdidi/.nuget/packages/",
-      "outputPath": "/Users/aelbouhdidi/Desktop/Repos/serverSolution/server/obj/",
+      "outputPath": "/Users/aelbouhdidi/Desktop/todo-app/server/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/Users/aelbouhdidi/.nuget/NuGet/NuGet.Config"

@@ -19,7 +19,7 @@ app.UseSwaggerUI( swaggerUIOptions =>
 
 app.UseHttpsRedirection();
 
-app.UseCors(x => x.AllowAnyHeader().AllowAnyMethod().WithOrigins("http://localhost:3000", "https://spectacular-praline-4416c5.netlify.app"));
+app.UseCors(x => x.AllowAnyHeader().AllowAnyMethod().WithOrigins("http://localhost:3000", "https://spectacular-praline-4416c5.netlify.app", "https://purple-grass-0b55b2d03.2.azurestaticapps.net/"));
 
 
 app.MapGet("/get-all-todos", async () => await TodosRepository.GetTodosAsync());
