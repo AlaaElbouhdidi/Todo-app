@@ -12,6 +12,8 @@ Server Swagger: https://dotnettodoserver.azurewebsites.net/swagger/index.html
 
 ## Available Scripts
 
+Frontend is in /frontend Repository and backend is in /server
+
 In the project directory, you can run:
 
 ### `npm start`
