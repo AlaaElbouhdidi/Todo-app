@@ -1,0 +1,109 @@
+.is-done{
+    text-decoration: line-through;
+    opacity: 0.8;
+}
+.footer{
+  border: #555 ;
+  border-radius: 2px;
+}
+.check{
+  border: 1px solid black;
+  border-radius: 50%;
+  width: 26px;
+  height: 26px;
+  display: flex;
+  text-align: center;
+  font-size: 14px;
+  margin-right: 8px;
+  align-items: center;
+  justify-content: center;
+}
+.check:hover{
+  cursor: pointer;
+  background: #eeeee4;
+  border-radius: 100%;
+}
+.delete{
+  position: absolute;
+  text-align: end;
+  text-align: left;
+  display: inline-block;
+}
+.add-form{
+  padding-left: 12px;
+  padding-right: 12px;
+}
+.head-title{
+  margin-left: auto;
+  margin-right: auto;
+}
+.filter{
+  cursor: pointer;
+}
+.filter:hover {
+  font-weight: lighter;
+}
+.filter-on{
+  font-weight: lighter;
+}
+.btn{
+  border-radius: inherit!important;
+}
+.duedate{
+  font-size: 12px;
+  color: #555;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  right: 37px;
+  width: auto;
+  display: inline-block;
+}
+body {
+    background-color: #eeeee4!important;
+    color: #fff;
+  }
+  
+.App {
+  text-align: center;
+}
+
+.taskBg {
+  background-color: white;
+  border-width: 0.5px;
+  border-color: gray;
+  border-style: solid;
+  border-radius: 2px;
+  padding: 10px 140px 10px 15px;
+  text-align: left;
+  position: relative;
+}
+
+.taskBg div {
+  display: flex;
+  align-items: center;
+}
+
+
+.taskBg .taskText {
+  flex: 1;
+}
+
+.taskBg .done .taskText {
+  text-decoration: line-through;
+  
+}
+
+.taskBg .delete {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  right: 15px;
+  width: auto;
+  display: inline-block;
+}
+  
+.delete :hover {
+  color: #A81111;
+  cursor: pointer;
+}

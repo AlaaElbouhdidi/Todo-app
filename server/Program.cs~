@@ -1,0 +1,56 @@
+using server.Data;
+
+var builder = WebApplication.CreateBuilder(args);
+
+builder.Services.AddCors();
+
+// Add services to the container.
+// Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
+builder.Services.AddEndpointsApiExplorer();
+builder.Services.AddSwaggerGen();
+
+var app = builder.Build();
+
+app.UseSwagger();
+app.UseSwaggerUI( swaggerUIOptions =>
+{
+    swaggerUIOptions.DocumentTitle = "ASP.NET Server Swagger";
+});
+
+app.UseHttpsRedirection();
+
+app.UseCors(x => x.AllowAnyHeader().AllowAnyMethod().WithOrigins("http://localhost:3000"));
+
+
+app.MapGet("/get-all-todos", async () => await TodosRepository.GetTodosAsync());
+
+app.MapPost("/add-todo", async (Todo todoToCreate) =>
+{
+    bool queryStatus = await TodosRepository.CreateTodoAsync(todoToCreate);
+
+    if (queryStatus) return Results.Ok("Create successfull");
+
+    else return Results.BadRequest();
+})
+    .WithTags("Posts Endpoints");
+
+app.MapPut("/add-todo", async (Todo todoToUpdate) =>
+{
+    bool queryStatus = await TodosRepository.CreateTodoAsync(todoToUpdate);
+
+    if (queryStatus) return Results.Ok("Update successfull");
+
+    else return Results.BadRequest();
+})
+    .WithTags("Posts Endpoints");
+
+app.MapDelete("/delete-todo", async (int todoId) =>
+{
+
+    if (await TodosRepository.DeleteTodoAsync(todoId)) return Results.Ok("Delete successfull");
+
+    else return Results.BadRequest();
+})
+    .WithTags("Posts Endpoints");
+
+app.Run();
