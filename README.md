@@ -2,7 +2,9 @@
 
 This project is a simple Todo App using ASP.NET in Backend and ReactJS in Frontend.
 
-##Get started
+## Get started
+
+<img width="862" alt="Screenshot 2022-11-20 at 19 56 59" src="https://user-images.githubusercontent.com/64467713/202920585-86c11841-15eb-42da-b1d2-e3d5e7adbaf5.png">
 
 Live Demo: https://purple-grass-0b55b2d03.2.azurestaticapps.net/
 
